@@ -15,7 +15,7 @@ HTTPClient http;
 
 //--------------------------------
 const char* ssid     = "UB1";
-const char* password = "2324070289";
+const char* password = "xxxxxxxxxx";                            // CHANGE 
 //--------------------------------
 char buf[128];
 unsigned int  bg;
@@ -24,7 +24,7 @@ unsigned long runTime;
 char          msg[100]= {0};
   
 // The URL of your local server script
-const char* serverUrl = "https://www.dextender.com/cgi-bin/getLatestBG.cgi?code=392455&uid=100002"; 
+const char* serverUrl = "https://www.dextender.com/cgi-bin/getLatestBG.cgi?";  // CHANGE
   
 // Variable to store the server's response
 String serverResponse = ""; 
